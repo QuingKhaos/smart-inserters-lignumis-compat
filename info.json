@@ -1,12 +1,18 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "smart-inserters-lignumis-compat",
+  "title": "Smart Inserters: Lignumis Compatibility",
+  "description": "Makes smart inserters research already available to be researched with Lignumis science packs.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
-  ]
+    "base >= 2.0.77",
+
+    "khaoslib >= 1.6.0",
+
+    "lignumis >= 1.10.0",
+    "Smart_Inserters >= 2.0.20"
+  ],
+  "space_travel_required": true
 }
